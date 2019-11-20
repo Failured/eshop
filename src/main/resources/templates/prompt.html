@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<header th:replace="header::headerFragment('´íÎóÒ³Ãæ')"></header>
+
+<style>
+.sss{
+	width: 400px;
+	height: 350px;
+
+	margin: 0 auto;
+}
+</style >
+<body class="grey_bg">
+<div th:replace="header::header-body"></div>
+	<div class="sss">
+  <span th:text="${mages}"></span>
+	</div>
+<div th:replace="footer::footer-body"></div>
+<div th:replace="footer::footer"></div>
+</body>
+</html>
